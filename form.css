@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: steelblue;
-  color: #fff;
+  background-color: #b4daa7;
+  color: #4a785e;
   font-family: 'Muli', sans-serif;
   display: flex;
   flex-direction: column;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #F6f4c3;
   padding: 20px 40px;
   border-radius: 5px;
 }
@@ -30,14 +30,15 @@ body {
 
 .container a {
   text-decoration: none;
-  color: lightblue;
+  color: #4a785e;
+  font-weight: bold;
 }
 
 .btn {
   cursor: pointer;
   display: inline-block;
   width: 100%;
-  background: lightblue;
+  background: #4a785e;
   padding: 15px;
   font-family: inherit;
   font-size: 16px;
@@ -51,10 +52,6 @@ body {
 
 .btn:active {
   transform: scale(0.98);
-}
-
-.text {
-  margin-top: 30px;
 }
 
 .form-control {
@@ -71,13 +68,13 @@ body {
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #fff;
+  color: #000000;
 }
 
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
-  border-bottom-color: lightblue;
+  border-bottom-color: rgb(13, 53, 42);
 }
 
 .form-control label {
@@ -96,6 +93,6 @@ body {
 
 .form-control input:focus + label span,
 .form-control input:valid + label span {
-  color: lightblue;
+  color: rgb(13, 53, 42);
   transform: translateY(-30px);
 }
