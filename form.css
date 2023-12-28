@@ -54,6 +54,10 @@ body {
   transform: scale(0.98);
 }
 
+.text {
+  margin-top: 30px;
+}
+
 .form-control {
   position: relative;
   margin: 20px 0 40px;
@@ -68,7 +72,7 @@ body {
   width: 100%;
   padding: 15px 0;
   font-size: 18px;
-  color: #000000;
+  color: #b4daa7;
 }
 
 .form-control input:focus,
